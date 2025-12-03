@@ -1,0 +1,29 @@
+{
+  "name": "raw-server",
+  "version": "1.0.0",
+  "description": "Raw nodejs server with http module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaiobrunobm/raw-server.git"
+  },
+  "keywords": [],
+  "author": "Kaio Bruno <bmkaiobruno@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/kaiobrunobm/raw-server/issues"
+  },
+  "homepage": "https://github.com/kaiobrunobm/raw-server#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
